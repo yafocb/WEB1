@@ -3,34 +3,74 @@
     <head>
         <meta charset="utf-8">
         <title>WEB1 - HTML</title>
-        <style>
-            a {
-                color: rgb(54, 75, 145);
-                text-decoration: none;
-            }
-            .saw {
-                color: rgb(150, 164, 211);
-            }
-            #active {
-                color: crimson;
-            }
-            h1 {
-                font-size: 45px;
-                text-align: center;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="다운로드.png" type="image/x-icon">
     </head>
     <body>
-        <h1><a href="./web1.html">WEB</a></h1>
-        <ol>
-            <li><a href="./html1.html" title="html specification" id="active">HTML</a></li>
-            <li><a href="./css1.html" title="css specification" class="saw">CSS</a></li>
-            <li><a href="./javascript1.html" title="java script specification" class="saw">JavaScript</a></li>
-        </ol>
-        <h2>HTML</h2>
-        <p><a href="https://www.w3.org/TR/html5/" title="HTML5 specification" target="_blank">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
-        <img src="https://web-n.github.io/web1_html_internet/coding.jpg" alt="" width="100%"></p>
-        <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+        <h1><a href="./web1.html" id="Ti">WEB</a></h1>
+        <div id="grid">
+            <ul>
+                <li><a href="./html1.html" title="html specification">HTML</a></li>
+                <li><a href="./css1.html" title="css specification">CSS</a></li>
+                <li><a href="./javascript1.html" title="java script specification">JavaScript</a></li>
+            </ul>
+            <div id="article">
+                <h2>HTML</h2>
+                <hr>
+                <p style="text-align: justify;"><a href="https://www.w3.org/TR/html5/" title="HTML5 specification" target="_blank">Hypertext Markup Language (HTML)</a> is the standard markup language<sup><a href="#history" name="fhistory" class="tag">[1]</a></sup> for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<br>
+                <div class="frame"><a href="https://web-n.github.io/web1_html_internet/coding.jpg"><img src="https://web-n.github.io/web1_html_internet/coding.jpg" alt="노트북으로 코딩을 하는 사진" width="70%"></a></div></p>
+                <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+                <hr>
+                <h2>HTML Version</h2>
+                <table border="1" class="tableh">
+                    <caption style="font-family: cursive;">HTML Version timeline</caption>
+                    <thead>
+                        <tr>
+                            <th>Version</th>
+                            <th>Update date</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>html 1.0</td>
+                            <td>October 1991</td>
+                            <td> first mentioned on the Internet by Tim Berners-Lee in late 1991</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>html 2.0</td>
+                            <td>November 24, 1995</td>
+                            <td>HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>html 3.0</td>
+                            <td>January 14, 1997</td>
+                            <td>It was the first version developed and standardized exclusively by the W3C</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>html 4.0</td>
+                            <td>December 18, 1997</td>
+                            <td>HTML 4.0 was published as a W3C Recommendation. It offers three variations</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>html 5.0</td>
+                            <td>October 28, 2014</td>
+                            <td>Main article: HTML5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            <a name="history" style="color: black;"><a href="#fhistory" class="tag">[1]</a>a태그 바로가기 테스트</a>
+            
+        </div>
         <p>
             <div id="disqus_thread"></div>
             <script>
